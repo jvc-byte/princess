@@ -68,7 +68,7 @@ function Letter() {
                 <div className="body">
                   <span className="close">x</span>
                   <div className="message">
-                    <p>Dear Princess,</p> <hr className="mb-2"/>I just wanted to take a moment to
+                    <p>Dear Princess,</p> <hr className="my-2"/>I just wanted to take a moment to
                     express my sincere gratitude. Your kindness, support, and
                     efforts never go unnoticed, and I truly appreciate all that
                     you do. You make a difference, and I’m grateful to have you
