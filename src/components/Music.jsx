@@ -5,7 +5,7 @@ import { useState, useRef } from "react";
 import {
   nightlight,
   sparks,
-  brandy,
+  openarms,
   bruno,
   greenday,
   kanye,
@@ -17,8 +17,14 @@ function Music() {
   const navigate = useNavigate();
   const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
   const audioRef = useRef(new Audio());
+
   const nightlightAudio = new URL(
     "/src/assets/audio/nightlight.mp3",
+    import.meta.url
+  ).href;
+
+  const openarmsAudio = new URL(
+    "/src/assets/audio/openarms.mp3",
     import.meta.url
   ).href;
 
@@ -33,10 +39,10 @@ function Music() {
       top: "5%",
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
-      albumCover: brandy,
-      audioUrl: "/path/to/boy-is-mine.mp3",
+      title: "Open Arms (feat. Travis Scott)",
+      artist: "SZA, Travis scott",
+      albumCover: openarms,
+      audioUrl: openarmsAudio,
       left: "40%",
       top: "15%",
     },

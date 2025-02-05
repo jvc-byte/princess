@@ -4,7 +4,7 @@ import picture from "./picture.jpg";
 import nightlight from "./nightlight.jpg";
 import sparks from "./sparks.jpeg";
 import sunsetz from "./sunsetz.jpeg";
-import brandy from "./brandy.jpeg";
+import openarms from "./openarms.jpeg";
 import bruno from "./bruno.jpeg";
 import greenday from "./greenday.jpeg";
 import kanye from "./kanye.jpeg";
@@ -27,7 +27,7 @@ souljaboy,
 kanye,
 greenday,
 bruno,
-brandy,
+openarms,
 sunsetz,
 sparks,
 };
