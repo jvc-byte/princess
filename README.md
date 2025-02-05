@@ -10,7 +10,7 @@ A beautifully crafted interactive web experience designed for a special someone.
 - 💌 **Letter** - A heartfelt message displayed beautifully.
 - 🎶 **Music Section** - A dedicated page for romantic tunes.
 - 🖼️ **Picture Carousel** - A gallery of memorable images.
-- ⏳ **Timer** - A e to build anticipation.
+- ⏳ **Timer** - How long you and your princess have been together.
 - 💬 **Sweet Messages** - Random messages to brighten the experience.
 - 🔄 **Smooth Navigation** - Seamless routing with React Router.
 
