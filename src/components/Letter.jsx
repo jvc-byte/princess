@@ -72,7 +72,7 @@ function Letter() {
                     express my sincere gratitude. Your kindness, support, and
                     efforts never go unnoticed, and I truly appreciate all that
                     you do. You make a difference, and I’m grateful to have you
-                    in my life. Thank you! <hr className="mb-2"/><p>Yours Lovely,</p> <p>Val</p>
+                    in my life. Thank you! <hr className="my-2"/><p>Yours Lovely,</p> <p>Val</p>
                   </div>
                 </div>
               </div>
