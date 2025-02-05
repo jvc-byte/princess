@@ -7,7 +7,7 @@ const ValentineSurprise = () => {
   const [step, setStep] = useState(0);
   const [showHearts, setShowHearts] = useState(false);
   const [noButtonPosition, setNoButtonPosition] = useState({
-    top: 500,
+    top: 600,
     left: 120,
   });
   const [noCount, setNoCount] = useState(0);
