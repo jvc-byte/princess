@@ -6,7 +6,7 @@ import {
   nightlight,
   sparks,
   openarms,
-  bruno,
+  swimming,
   greenday,
   kanye,
   sunsetz,
@@ -18,15 +18,9 @@ function Music() {
   const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
   const audioRef = useRef(new Audio());
 
-  const nightlightAudio = new URL(
-    "/src/assets/audio/nightlight.mp3",
-    import.meta.url
-  ).href;
-
-  const openarmsAudio = new URL(
-    "/src/assets/audio/openarms.mp3",
-    import.meta.url
-  ).href;
+  const nightlightAudio = new URL( "/src/assets/audio/nightlight.mp3", import.meta.url ).href;
+  const openarmsAudio = new URL( "/src/assets/audio/openarms.mp3", import.meta.url ).href;
+  const swimmingAudio = new URL( "/src/assets/audio/swimming.mp3", import.meta.url ).href;
 
   // Customize and add your own songs
   const songs = [
@@ -47,9 +41,10 @@ function Music() {
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
-      albumCover: bruno,
+      title: "Swimming",
+      artist: "Flawed Mangoes",
+      albumCover: swimming,
+      audioUrl: swimmingAudio,
       left: "15%",
       top: "40%",
     },

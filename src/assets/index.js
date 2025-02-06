@@ -5,7 +5,7 @@ import nightlight from "./nightlight.jpg";
 import sparks from "./sparks.jpeg";
 import sunsetz from "./sunsetz.jpeg";
 import openarms from "./openarms.jpeg";
-import bruno from "./bruno.jpeg";
+import swimming from "./swimming.jpg";
 import greenday from "./greenday.jpeg";
 import kanye from "./kanye.jpeg";
 import souljaboy from "./souljaboy.jpeg";
@@ -26,7 +26,7 @@ fireworks,
 souljaboy,
 kanye,
 greenday,
-bruno,
+swimming,
 openarms,
 sunsetz,
 sparks,
