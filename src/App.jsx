@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Letter />} />
+        <Route path="/" element={<Recap />} />
         <Route path="/" element={<Passcode />} />
         <Route path="/question" element={<Question />} />
         <Route path="/timer" element={<Timer />} />
